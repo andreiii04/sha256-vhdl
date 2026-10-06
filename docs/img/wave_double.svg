@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="378" viewBox="0 0 1030 378" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-size="14" font-weight="bold" fill="#1f2328">sha256_double: three core passes for one 80-byte header (352 cycles at 10 ns)</text>
+<text x="12" y="62.0" fill="#1f2328">start</text>
+<line x1="150" y1="72" x2="1010" y2="72" stroke="#d0d7de" stroke-width="0.5"/>
+<polyline fill="none" stroke="#0969da" stroke-width="1.4" points="150.0,66.0 154.7,66.0 154.7,50.0 157.1,50.0 157.1,66.0 993.5,66.0 993.5,50.0 995.8,50.0 995.8,66.0 1010.0,66.0"/>
+<text x="12" y="92.0" fill="#1f2328">wrapper.state</text>
+<line x1="150" y1="102" x2="1010" y2="102" stroke="#d0d7de" stroke-width="0.5"/>
+<path d="M152.0,80 L153.9,80 L155.9,88.0 L153.9,96 L152.0,96 L150.0,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M157.9,80 L156.3,80 L158.3,88.0 L156.3,96 L157.9,96 L155.9,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M160.3,80 L428.0,80 L430.0,88.0 L428.0,96 L160.3,96 L158.3,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="294.1" y="92.0" text-anchor="middle" fill="#1f2328">wait1_block1</text>
+<path d="M432.0,80 L430.3,80 L432.3,88.0 L430.3,96 L432.0,96 L430.0,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M434.3,80 L704.4,80 L706.4,88.0 L704.4,96 L434.3,96 L432.3,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="569.4" y="92.0" text-anchor="middle" fill="#1f2328">wait1_block2</text>
+<path d="M708.4,80 L706.8,80 L708.8,88.0 L706.8,96 L708.4,96 L706.4,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M710.8,80 L980.8,80 L982.8,88.0 L980.8,96 L710.8,96 L708.8,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="845.8" y="92.0" text-anchor="middle" fill="#1f2328">wait2</text>
+<path d="M984.8,80 L983.2,80 L985.2,88.0 L983.2,96 L984.8,96 L982.8,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M987.2,80 L992.6,80 L994.6,88.0 L992.6,96 L987.2,96 L985.2,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M996.6,80 L995.0,80 L997.0,88.0 L995.0,96 L996.6,96 L994.6,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M999.0,80 L1008.0,80 L1010.0,88.0 L1008.0,96 L999.0,96 L997.0,88.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="12" y="122.0" fill="#1f2328">core.rst</text>
+<line x1="150" y1="132" x2="1010" y2="132" stroke="#d0d7de" stroke-width="0.5"/>
+<polyline fill="none" stroke="#0969da" stroke-width="1.4" points="150.0,110.0 153.5,110.0 153.5,126.0 430.0,126.0 430.0,110.0 432.3,110.0 432.3,126.0 706.4,126.0 706.4,110.0 708.8,110.0 708.8,126.0 1010.0,126.0"/>
+<text x="12" y="152.0" fill="#1f2328">core.start</text>
+<line x1="150" y1="162" x2="1010" y2="162" stroke="#d0d7de" stroke-width="0.5"/>
+<polyline fill="none" stroke="#0969da" stroke-width="1.4" points="150.0,156.0 155.9,156.0 155.9,140.0 158.3,140.0 158.3,156.0 432.3,156.0 432.3,140.0 434.7,140.0 434.7,156.0 708.8,156.0 708.8,140.0 711.1,140.0 711.1,156.0 994.6,156.0 994.6,140.0 997.0,140.0 997.0,156.0 1010.0,156.0"/>
+<text x="12" y="182.0" fill="#1f2328">core.use_custom_init</text>
+<line x1="150" y1="192" x2="1010" y2="192" stroke="#d0d7de" stroke-width="0.5"/>
+<polyline fill="none" stroke="#0969da" stroke-width="1.4" points="150.0,186.0 432.3,186.0 432.3,170.0 708.8,170.0 708.8,186.0 1010.0,186.0"/>
+<text x="12" y="212.0" fill="#1f2328">core.state</text>
+<line x1="150" y1="222" x2="1010" y2="222" stroke="#d0d7de" stroke-width="0.5"/>
+<path d="M152.0,200 L156.3,200 L158.3,208.0 L156.3,216 L152.0,216 L150.0,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M160.3,200 L272.0,200 L274.0,208.0 L272.0,216 L160.3,216 L158.3,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="216.2" y="212.0" text-anchor="middle" fill="#1f2328">extend_schedule</text>
+<path d="M276.0,200 L423.2,200 L425.2,208.0 L423.2,216 L276.0,216 L274.0,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="349.6" y="212.0" text-anchor="middle" fill="#1f2328">processing</text>
+<path d="M427.2,200 L425.6,200 L427.6,208.0 L425.6,216 L427.2,216 L425.2,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M429.6,200 L432.7,200 L434.7,208.0 L432.7,216 L429.6,216 L427.6,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M436.7,200 L548.5,200 L550.5,208.0 L548.5,216 L436.7,216 L434.7,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="492.6" y="212.0" text-anchor="middle" fill="#1f2328">extend_schedule</text>
+<path d="M552.5,200 L699.7,200 L701.7,208.0 L699.7,216 L552.5,216 L550.5,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="626.1" y="212.0" text-anchor="middle" fill="#1f2328">processing</text>
+<path d="M703.7,200 L702.0,200 L704.0,208.0 L702.0,216 L703.7,216 L701.7,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M706.0,200 L709.1,200 L711.1,208.0 L709.1,216 L706.0,216 L704.0,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M713.1,200 L824.9,200 L826.9,208.0 L824.9,216 L713.1,216 L711.1,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="769.0" y="212.0" text-anchor="middle" fill="#1f2328">extend_schedule</text>
+<path d="M828.9,200 L976.1,200 L978.1,208.0 L976.1,216 L828.9,216 L826.9,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="902.5" y="212.0" text-anchor="middle" fill="#1f2328">processing</text>
+<path d="M980.1,200 L978.5,200 L980.5,208.0 L978.5,216 L980.1,216 L978.1,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M982.5,200 L995.0,200 L997.0,208.0 L995.0,216 L982.5,216 L980.5,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<path d="M999.0,200 L1008.0,200 L1010.0,208.0 L1008.0,216 L999.0,216 L997.0,208.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="12" y="242.0" fill="#1f2328">core.done</text>
+<line x1="150" y1="252" x2="1010" y2="252" stroke="#d0d7de" stroke-width="0.5"/>
+<polyline fill="none" stroke="#0969da" stroke-width="1.4" points="150.0,246.0 427.6,246.0 427.6,230.0 430.0,230.0 430.0,246.0 704.0,246.0 704.0,230.0 706.4,230.0 706.4,246.0 980.5,246.0 980.5,230.0 982.8,230.0 982.8,246.0 1010.0,246.0"/>
+<text x="12" y="272.0" fill="#1f2328">first_hash</text>
+<line x1="150" y1="282" x2="1010" y2="282" stroke="#d0d7de" stroke-width="0.5"/>
+<path d="M152.0,260 L704.4,260 L706.4,268.0 L704.4,276 L152.0,276 L150.0,268.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="428.2" y="272.0" text-anchor="middle" fill="#1f2328">00000000…</text>
+<path d="M708.4,260 L1008.0,260 L1010.0,268.0 L1008.0,276 L708.4,276 L706.4,268.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="858.2" y="272.0" text-anchor="middle" fill="#1f2328">06f39847…</text>
+<text x="12" y="302.0" fill="#1f2328">done</text>
+<line x1="150" y1="312" x2="1010" y2="312" stroke="#d0d7de" stroke-width="0.5"/>
+<polyline fill="none" stroke="#0969da" stroke-width="1.4" points="150.0,306.0 985.2,306.0 985.2,290.0 987.6,290.0 987.6,306.0 1010.0,306.0"/>
+<text x="12" y="332.0" fill="#1f2328">hash_out</text>
+<line x1="150" y1="342" x2="1010" y2="342" stroke="#d0d7de" stroke-width="0.5"/>
+<path d="M152.0,320 L980.8,320 L982.8,328.0 L980.8,336 L152.0,336 L150.0,328.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="566.4" y="332.0" text-anchor="middle" fill="#1f2328">00000000…</text>
+<path d="M984.8,320 L1008.0,320 L1010.0,328.0 L1008.0,336 L984.8,336 L982.8,328.0 Z" fill="#dafbe1" fill-opacity="0.55" stroke="#1a7f37" stroke-width="1"/>
+<text x="996.4" y="332.0" text-anchor="middle" fill="#1f2328">5a…</text>
+<line x1="150" y1="350" x2="1010" y2="350" stroke="#57606a"/>
+<line x1="150.0" y1="350" x2="150.0" y2="354" stroke="#57606a"/>
+<text x="150.0" y="366" text-anchor="middle" fill="#57606a">0.04 µs</text>
+<line x1="236.0" y1="350" x2="236.0" y2="354" stroke="#57606a"/>
+<text x="236.0" y="366" text-anchor="middle" fill="#57606a">0.404 µs</text>
+<line x1="322.0" y1="350" x2="322.0" y2="354" stroke="#57606a"/>
+<text x="322.0" y="366" text-anchor="middle" fill="#57606a">0.768 µs</text>
+<line x1="408.0" y1="350" x2="408.0" y2="354" stroke="#57606a"/>
+<text x="408.0" y="366" text-anchor="middle" fill="#57606a">1.13 µs</text>
+<line x1="494.0" y1="350" x2="494.0" y2="354" stroke="#57606a"/>
+<text x="494.0" y="366" text-anchor="middle" fill="#57606a">1.5 µs</text>
+<line x1="580.0" y1="350" x2="580.0" y2="354" stroke="#57606a"/>
+<text x="580.0" y="366" text-anchor="middle" fill="#57606a">1.86 µs</text>
+<line x1="666.0" y1="350" x2="666.0" y2="354" stroke="#57606a"/>
+<text x="666.0" y="366" text-anchor="middle" fill="#57606a">2.22 µs</text>
+<line x1="752.0" y1="350" x2="752.0" y2="354" stroke="#57606a"/>
+<text x="752.0" y="366" text-anchor="middle" fill="#57606a">2.59 µs</text>
+<line x1="838.0" y1="350" x2="838.0" y2="354" stroke="#57606a"/>
+<text x="838.0" y="366" text-anchor="middle" fill="#57606a">2.95 µs</text>
+<line x1="924.0" y1="350" x2="924.0" y2="354" stroke="#57606a"/>
+<text x="924.0" y="366" text-anchor="middle" fill="#57606a">3.32 µs</text>
+<line x1="1010.0" y1="350" x2="1010.0" y2="354" stroke="#57606a"/>
+<text x="1010.0" y="366" text-anchor="middle" fill="#57606a">3.68 µs</text>
+</svg>
