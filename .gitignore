@@ -1,0 +1,35 @@
+# GHDL / simulation output
+build/
+*.cf
+*.o
+*.ghw
+*.vcd
+*.fst
+
+# Vivado
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+xsim.dir/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.xpr
+*.bit
+*.dcp
+*.rpt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
