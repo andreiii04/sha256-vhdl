@@ -56,6 +56,7 @@ def read_values(ghwdump: str, wave: str, indices: list) -> list:
     spec = ",".join(str(i) for i in sorted(set(indices)))
     proc = subprocess.Popen([ghwdump, "-s", "-f", spec, wave], stdout=subprocess.PIPE,
                             stderr=subprocess.DEVNULL, text=True)
+    assert proc.stdout is not None  # always set with stdout=PIPE; narrows the type
     snaps, cur, t = [], None, 0
     for line in proc.stdout:
         if line.startswith("Time is "):
